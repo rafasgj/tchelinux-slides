@@ -1,0 +1,15 @@
+title: Tchelinux Slides
+email:
+description: >- # this means to ignore newlines until "baseurl:"
+    _Slides_ apresentados nas palestras de eventos do Tchelinux.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://slides.tchelinux.org" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: tchelinux
+github_username:  tchelinux
+
+# Build settings
+markdown: kramdown
+sass:
+  sass_dir: ./css
+include: []
+ignore: [README.md]

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Tchelinux Slides</title>
+        <link rel="stylesheet" href="/css/main.css">
+    </head>
+    <body>
+        <img id="tux" src="/assets/images/tuxgaucho.png">
+        <h1 class="title">Tchelinux Slides</h1>
+        <div id="content" class="row">
+            <div id="slidelist" class="accordion col-xs-4" data-accordion="{{ page.slidedata }}" data-viewer="slideviewer"></div>
+            <div id="slideviewer" class="col-xs-8"></div>
+        </div>
+        </div>
+        <script defer src="/js/accordion.js"></script>
+        <script src="/js/pdf.js"></script>
+        <script src="/js/slideviewer.js"></script>
+        <link rel="stylesheet" type="text/css" href="/css/slideviewer.css">
+        {% include scripts.html %}
+    </body>
+</html>

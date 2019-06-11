@@ -1,0 +1,185 @@
+{
+    "config": {
+        "slideshow": true
+    },
+    "data": [
+        {
+            "id": "2019-06-08",
+            "event": "Camaquã",
+            "content": [
+                {
+                    "title": "Desenvolvendo Jogos com PyGame",
+                    "file": "tchelinux/2019/camaqua/pygame.pdf",
+                    "author": "Rafael Guterres Jeffman"
+                }
+            ]
+        },
+        {
+            "id": "2019-05-11",
+            "event": "Caxias do Sul",
+            "content": [
+                {
+                    "title": "Desenvolvendo Jogos com PyGame",
+                    "file": "tchelinux/2019/caxias/pygame.pdf",
+                    "author": "Rafael Guterres Jeffman"
+                },
+                {
+                    "title": "Essa câmera faz fotos muito boas, né?",
+                    "file": "tchelinux/2019/caxias/fotografia.pdf",
+                    "author": "Rafael Guterres Jeffman"
+                }
+            ]
+        },
+        {
+            "id": "2019-04-27",
+            "event": "Santa Cruz do Sul",
+            "content": [
+                {
+                    "title": "Desenvolvendo Jogos com PyGame",
+                    "file": "tchelinux/2019/santacruz/pygame.pdf",
+                    "author": "Rafael Guterres Jeffman"
+                }
+            ]
+        },
+        {
+            "id": "2018-12-01",
+            "event": "Porto Alegre",
+            "content": [
+                {
+                    "title": "Desenvolvendo Jogos com PyGame",
+                    "file": "tchelinux/2018/pelotas/pygame.pdf",
+                    "author": "Rafael Guterres Jeffman"
+                }
+            ]
+        },
+        {
+            "id": "2018-09-01",
+            "event": "Pelotas",
+            "content": [
+                {
+                    "title": "Desenvolvendo Jogos com PyGame",
+                    "file": "tchelinux/2018/pelotas/pygame.pdf",
+                    "author": "Rafael Guterres Jeffman"
+                }
+            ]
+        },
+        {
+            "id": "2018-08-18",
+            "event": "Caxias do Sul",
+            "content": [
+                {
+                    "title": "Não deixe para testar depois o que você pode testar antes.",
+                    "file": "tchelinux/2018/caxias/behave.pdf",
+                    "author": "Rafael Guterres Jeffman"
+                }
+            ]
+        },
+        {
+            "id": "2018-06-09",
+            "event": "Santa Cruz do Sul",
+            "content": [
+                {
+                    "title": "Não deixe para testar depois o que você pode testar antes.",
+                    "file": "tchelinux/2018/santacruz/behave.pdf",
+                    "author": "Rafael Guterres Jeffman"
+                },
+                {
+                    "title": "O TCC... um dia ele chega!",
+                    "file": "tchelinux/2018/santacruz/documentacao.pdf",
+                    "author": "Rafael Guterres Jeffman"
+                }
+            ]
+        },
+        {
+            "id": "2017-10-21",
+            "event": "Caxias do Sul",
+            "content": [
+                {
+                    "title": "OpenCV e Python",
+                    "file": "tchelinux/2017/caxias/opencv_python.pdf",
+                    "author": "Rafael Guterres Jeffman"
+                },
+                {
+                    "title": "OpenCV e Python",
+                    "subtitle": "Código desenvolvido na apresentação.",
+                    "url": "https://github.com/rafasgj/tchelinux-code/tree/master/2017/Caxias/code",
+                    "author": "Rafael Guterres Jeffman"
+                }
+            ]
+        },
+        {
+            "id": "2017-08-12",
+            "event": "Novo Hamburgo",
+            "content": [
+                {
+                    "title": "OpenCV e Python",
+                    "file": "tchelinux/2017/nh/opencv_python.pdf",
+                    "author": "Rafael Guterres Jeffman"
+                },
+                {
+                    "title": "OpenCV e Python",
+                    "subtitle": "Código desenvolvido na apresentação.",
+                    "url": "https://github.com/rafasgj/tchelinux-code/tree/master/2017/NovoHamburgo/code",
+                    "author": "Rafael Guterres Jeffman"
+                }
+            ]
+        },
+        {
+            "id": "2017-06-10",
+            "event": "Pelotas",
+            "content": [
+                {
+                    "title": "Distribuições Linux",
+                    "file": "tchelinux/2017/pelotas/linux_distros.pdf",
+                    "author": "Rafael Guterres Jeffman"
+                },
+                {
+                    "title":"Com que ônibus eu vou?",
+                    "subtitle": "Uma gentil introdução a Python.",
+                    "file": "tchelinux/2017/pelotas/busao.pdf",
+                    "author": "Rafael Guterres Jeffman"
+                },
+                {
+                    "title": "Com que ônibus eu vou?",
+                    "subtitle": "Código desenvolvido na apresentação.",
+                    "url": "https://github.com/rafasgj/tchelinux-code/tree/master/2017/Pelotas/busao",
+                    "author": "Rafael Guterres Jeffman"
+                }
+            ]
+        },
+        {
+            "id": "2017-05-27",
+            "event": "Santa Cruz do Sul",
+            "content": [
+                {
+                    "title": "Distribuições Linux",
+                    "file": "tchelinux/2017/santacruz/linux_distros.pdf",
+                    "author": "Rafael Guterres Jeffman"
+                },
+                {
+                    "title": "OpenCV e Python",
+                    "file": "tchelinux/2017/santacruz/opencv_python.pdf",
+                    "author": "Rafael Guterres Jeffman"
+                },
+                {
+                    "title": "OpenCV e Python",
+                    "subtitle": "Código desenvolvido na apresentação.",
+                    "url": "https://github.com/rafasgj/tchelinux-code/tree/master/2017/SantaCruz/code",
+                    "author": "Rafael Guterres Jeffman"
+                }
+            ]
+        },
+        {
+            "id": "2017-05-20",
+            "event": "Porto Alegre",
+            "content": [
+                {
+                    "title": "Apresentação e Documentação de Projetos Open Source",
+                    "subtitle":"The beautiful and easy LaTeX Way",
+                    "file": "tchelinux/2017/poa/documentacao.pdf",
+                    "author": "Rafael Guterres Jeffman"
+                }
+            ]
+        }
+    ]
+}
