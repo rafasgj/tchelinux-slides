@@ -6,6 +6,7 @@
 *{
     color: $white;
 }
+
 html {
     box-shadow: inset 0 0 200px $pitblack;
     width: 100%;
@@ -42,30 +43,22 @@ h1.title {
 
 @media (max-width: $phone) {
     h1.title {
-        font-size: 32pt;
+        font-size: 24pt;
+        margin-bottom: 0;
     }
-    #content {
-        max-width: 98%;
+    #tux {
+        left: -20px;
+        top: 10px;
     }
 }
 @media (min-width: $tablet) and (max-width: $monitor) {
     h1.title {
         font-size: 42pt;
     }
-    #content {
-        min-width: 700px;
-        max-width: 95vw;
-    }
 }
 @media (min-width: $tablet) and (max-width: $monitor) {
     h1.title {
         font-size: 48pt;
-    }
-    #content {
-        border: thin solid red;
-        padding: 0;
-        margin: 0 auto;
-        max-width: 95vw;
     }
     #tux {
         max-width: 40%;

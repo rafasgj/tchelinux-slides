@@ -113,7 +113,6 @@ li.item-list:not(.active) > a:hover {
     font-style: italic;
 }
 
-
 .date {
     float: right;
 }
@@ -148,17 +147,36 @@ small.author {
 }
 
 @media (max-width:$phone) {
+
+    #content {
+        width: 95vw;
+        max-width: 95vw;
+    }
+
     .accordion {
-        width:90%;
-        margin: 0 auto;
+        width:100%;
+        margin: 0 auto 1em auto;
         padding: 5px 5px 5px 5px !important;
         border-radius: 2px;
         font-size: 90%;
+        max-height: 40vh;
     }
 
     #slideviewer {
-        margin: 0 auto;
+        margin-top: 5em;
+        vertical-align: top;
+        width: 100%;
+        display: block;
+        float: none;
+        margin: auto;
+        height: auto;
     }
+
+    #the-canvas {
+        height: auto;
+        width: 100%;
+    }
+
 }
 
 @media (min-width: $tablet) and (max-width: $monitor) {
