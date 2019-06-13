@@ -4,7 +4,8 @@
     },
     "data": [
         {
-            "id": "2019-06-08",
+            "date": "2019-06-08",
+            "cname": "camaqua",
             "event": "Camaquã",
             "content": [
                 {
@@ -15,7 +16,8 @@
             ]
         },
         {
-            "id": "2019-05-11",
+            "date": "2019-05-11",
+            "cname": "caxias",
             "event": "Caxias do Sul",
             "content": [
                 {
@@ -31,7 +33,8 @@
             ]
         },
         {
-            "id": "2019-04-27",
+            "date": "2019-04-27",
+            "cname": "santacruz",
             "event": "Santa Cruz do Sul",
             "content": [
                 {
@@ -42,7 +45,8 @@
             ]
         },
         {
-            "id": "2018-12-01",
+            "date": "2018-12-01",
+            "cname": "poa",
             "event": "Porto Alegre",
             "content": [
                 {
@@ -53,7 +57,8 @@
             ]
         },
         {
-            "id": "2018-09-01",
+            "date": "2018-09-01",
+            "cname": "pelotas",
             "event": "Pelotas",
             "content": [
                 {
@@ -64,7 +69,8 @@
             ]
         },
         {
-            "id": "2018-08-18",
+            "date": "2018-08-18",
+            "cname": "caxias",
             "event": "Caxias do Sul",
             "content": [
                 {
@@ -75,7 +81,8 @@
             ]
         },
         {
-            "id": "2018-06-09",
+            "date": "2018-06-09",
+            "cname": "santacruz",
             "event": "Santa Cruz do Sul",
             "content": [
                 {
@@ -91,7 +98,8 @@
             ]
         },
         {
-            "id": "2017-10-21",
+            "date": "2017-10-21",
+            "cname": "caxias",
             "event": "Caxias do Sul",
             "content": [
                 {
@@ -108,7 +116,8 @@
             ]
         },
         {
-            "id": "2017-08-12",
+            "date": "2017-08-12",
+            "cname": "nh",
             "event": "Novo Hamburgo",
             "content": [
                 {
@@ -125,7 +134,8 @@
             ]
         },
         {
-            "id": "2017-06-10",
+            "date": "2017-06-10",
+            "cname": "pelotas",
             "event": "Pelotas",
             "content": [
                 {
@@ -148,7 +158,8 @@
             ]
         },
         {
-            "id": "2017-05-27",
+            "date": "2017-05-27",
+            "cname": "santacruz",
             "event": "Santa Cruz do Sul",
             "content": [
                 {
@@ -170,7 +181,8 @@
             ]
         },
         {
-            "id": "2017-05-20",
+            "date": "2017-05-20",
+            "cname": "poa",
             "event": "Porto Alegre",
             "content": [
                 {

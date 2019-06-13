@@ -3,63 +3,125 @@
 
 @import 'custom/variables';
 
-#slides {
+#content {
     margin: 0 auto;
-    text-align: center;
+    padding: 0;
+    max-width: 80%;
 }
 
 .accordion {
+    vertical-align: top;
+    display: inline-block;
+    overflow-y:scroll;
+    overflow-x:hidden;
+    height: 60vh;
+    width: 29vw;
+}
+
+.accordion-cells {
     border-radius: 5px;
     background-color: $transparent-dark;
-    padding: 20px 20px 20px 20px !important;
-    max-width: 30%;
-    min-height: 100%;
-    overflow: hidden;
-    overflow-y: scroll;
 }
 
 #slideviewer {
-    max-width: 100%;
-    max-height: 100%;
-    margin-left: 1em;
-    z-index: 10;
+    vertical-align: top;
+    width: 48vw;
+    height: 60vh;
     padding: 0 0 0 0;
     border-radius: 5px;
     border: $white 3px solid;
     background-color: $transparent-dark;
+    display: inline-block;
 }
 
 #the-canvas {
-    border-bottom: thin solid $white;
-    height: 100%;
-    width: auto;
+    max-width: 100%;
+    padding: 0;
+    margin: auto 0;
+    height: calc(100% - 50px);
+    margin: 0 auto;
+}
+
+#slide-navigation {
+    border-top: thin solid $white;
+    padding-bottom: 5px;
+    display: block;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.evento { // card
+    background-color: $transparent-dark !important;
+    padding: 0;
+}
+
+.card-header {
     margin: 0;
     padding: 0;
 }
 
-#slide-navigation {
-    padding-top: 3px;
-    padding-bottom: 5px;
+.card-body {
+    margin: 0;
+    padding: 0;
 }
 
-.centered {
-    text-align: center;
+.card-body > ul > li {
+    margin-bottom: 5px;
+    border-top: solid thin $black;
+}
+
+.collapse {
+    background-color: $transparent-light !important;
+}
+.collapsing {
+    background-color: $transparent-light !important;
+}
+
+.accordion-selector {
+    width: 100%;
+    display: block;
+    text-align: left;
+}
+
+li.item-list { // each keynote
+    list-style: none;
+}
+
+li.item-list.active > a {
+    color: $yellow !important;
+    font-weight: bolder;
+}
+
+li.item-list > a {
+    color: $white !important;
+    font-weight: bolder;
+}
+
+li.item-list:hover:not(.active) {
+    background-color: $transparent-lighter !important;
+}
+li.item-list > a:hover {
+    text-decoration: none;
+}
+li.item-list:not(.active) > a:hover {
+    color: $darkgray !important;
+}
+
+.subtitle {
+    display:block;
+    font-style: italic;
+}
+
+
+.date {
+    float: right;
 }
 
 .palestra.active, .palestra.active:hover {
-    background-color: rgb(100,100,100) !important;
+    background-color: rgba(100,100,100, 1.0) !important;
     color: $white !important;
     border: none;
-}
-
-canvas {
-    max-width: 100%;
-    margin: 0 auto 0 auto;
-}
-
-small.subtitle {
-    display:block;
-    font-style: italic;
 }
 
 button {

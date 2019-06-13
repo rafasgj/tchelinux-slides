@@ -1,5 +1,6 @@
-<div id="palestras" class="accordion" data-accordion="{{ page.accordion }}"></div>
-<div id="tela"></div>
+<div id="{{ page.accordion.name }}" class="accordion" data-accordion="{{ page.accordion.data }}"
+     data-viewer="{{ page.accordion.slideviewer }}"></div>
+<div id="{{ page.accordion.slideviewer}}"></div>
 <script defer src="/js/accordion.js"></script>
 <script src="/js/pdf.js"></script>
 <script src="/js/slideviewer.js"></script>

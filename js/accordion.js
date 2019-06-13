@@ -1,107 +1,117 @@
 $('.accordion').each(function(index, accordion) {
     var id = $(accordion).attr("id")
-    var accordion_id = "accordion_"+$(accordion).attr("id")
     $.ajax({
         cached: true,
         async: true,
         type: "GET",
         url: $(accordion).attr("data-accordion"),
-        success: function (data, st, conn) { fillData(id, accordion_id, data) },
+        success: function (data, st, conn) { fillData($(accordion), data) },
         error: function (xhr, st) { alert ("Failed to load data.") }
     })
 })
 
-function fillData(accordion, accordion_id, data) {
+function create_body(content, acordion) {
+    list = $("<ul>")
+    content.forEach(function (palestra) {
+        item = $("<li>", {class: "item-list"})
+        list.append(item)
+        anchor = $('<a>', {text: palestra.title})
 
+        if (palestra.url) {
+            anchor.attr("href", palestra.url)
+            anchor.attr("targen", "_blank")
+        }
+
+        if (palestra.file) {
+            fn = "activate(this,'" + acordion + "','"+palestra.file+"')"
+            anchor.attr('onclick', fn)
+            anchor.attr('href', '#slides')
+        }
+
+        if (palestra.subtitle) {
+            anchor.append($('<small>',{class:"subtitle", text:palestra.subtitle}))
+        }
+        if (palestra.author) {
+            anchor.append($('<small>',{class:"author", text:palestra.author}))
+        }
+        item.append(anchor)
+    })
+    return list
+}
+
+function get_date(date) {
+    month = {
+         1: "Janeiro",
+         2: "Fevereiro",
+         3: "Março",
+         4: "Abril",
+         5: "Maio",
+         6: "Junho",
+         7: "Julho",
+         8: "Agosto",
+         9: "Setembro",
+        10: "Outubro",
+        11: "Novembro",
+        12: "Dezembro",
+    }
+    components = date.split("-")
+    return month[parseInt(components[1])] + " de " + components[0]
+}
+
+function create_card(evento, accordion_id) {
+    card = $('<div>', {class:"card evento"})
+    var card_id = evento.cname + evento.date
+    card_info = $('<div>', {class:"card-header", id: card_id })
+    card_button = $('<button>', {
+            class: "btn btn-link accordion-selector",
+            type: "button",
+            "data-toggle": "collapse",
+            "data-target": "#collapse" + card_id,
+            "aria-expanded": "true",
+            "aria-controls": "collapse" + card_id
+        })
+    event_city = $('<b>', { class:"city", text: evento.event })
+    event_date = $('<small>', { class:"date", text: get_date(evento.date) })
+    card_button.append(event_city).append(event_date)
+    card_info.append(card_button)
+    card.append(card_info)
+    card_collapsable = $('<div>', {
+            id: "collapse" + card_id,
+            class: "collapse",
+            "aria-labelledby": card_id,
+            "data-parent": "#" + accordion_id,
+        })
+    body = $('<div>', { class: 'card-body' })
+        .append(create_body(evento.content, accordion_id))
+    card.append(card_collapsable.append(body))
+    return card
+}
+
+function fillData(accordion, data) {
     var scr = $("<span>",{class:"far fa-image",
                           "aria-hidden":"true",
-                          style:"font-size:15px;vertical-align:center"});
+                          style:"font-size:15px;vertical-align:center"})
     var lnk = $("<span>",{class:"fas fa-external-link-alt",
                           "aria-hidden":"true",
-                          style:"font-size:10px;vertical-align:top"});
+                          style:"font-size:10px;vertical-align:top"})
 
-    $('#' + accordion).append($("<div>",{
-                    class:"panel-group", id:accordion_id,
-                    role:"tablist", "aria-multiselectable":"false"
-                })
-            )
+    if (data.config.slideshow) {
+        createViewer(accordion.attr('data-viewer'))
+    }
 
-    if (data.config.slideshow)
-        createViewer($('#' + accordion).attr('data-viewer'))
-
-    var first_one = null
-    var active = false
-    var expanded = "true"
+    cells = $('<div>', {class: "accordion-cells"})
+    accordion.append(cells)
     data.data.forEach(function (evento) {
-        d = new Date(evento.id + " 00:00:00")
-        if (isNaN(d.getTime()))
-            d = null
-        else
-            d = d.toLocaleString("pt-BR",{month:"long",year:"numeric"})
-
-        var panel = $('<div>', {class:"panel panel-default"})
-        var div = $('<div>', {class:"panel-heading", role:"tab", id:evento.id})
-        var link = $('<a>', {
-                role:"button", "data-toggle":"collapse",
-                "data-parent":"#"+accordion, href:"#data_"+evento.id,
-                "aria-expanded":expanded, "aria-controls":evento.id,
-                style:"text-decoration:none;color:#222;",
-            })
-        expanded = "false";
-        link.append($("<b>",{class:"list-group-item-heading", text:evento.event}))
-        if (d != null)
-            link.append($("<small>",{class:"list-group-item-text", style:"float:right", text:d}))
-        div.append(link)
-        panel.append(div)
-        div = $('<div>', {
-                role:"tabpanel", id:"data_"+evento.id,
-                class:"accordion_data panel-collapse collapse centered",
-                "aria-labelledby": evento.id
-            })
-        evento.content.forEach(function(lecture) {
-            if (lecture.file) {
-                if (first_one==null) first_one = lecture.file
-                link = $('<a>', {
-                        href:"#slides",
-                        class:"list-group-item palestra",
-                        onclick:"activate(this,'"+ accordion +"', '"+lecture.file+"')",
-                        text:lecture.title+" "
-                    }).append(scr.clone())
-            } else if (lecture.url) {
-                link = $('<a>', {
-                        href:lecture.url,
-                        class:"list-group-item palestra",
-                        text:lecture.title+" ",
-                        target:"_blank"
-                    }).append(lnk.clone())
-            } else {
-                link = $('<a>', {
-                        class:"list-group-item palestra",
-                        text:lecture.title
-                    })
-            }
-            if (lecture.subtitle) {
-                link.append($('<small>',{class:"subtitle",text:lecture.subtitle}))
-            }
-            if (lecture.author) {
-                link.append($('<small>',{class:"author",text:lecture.author}))
-            }
-            if (!active) {
-                div.addClass("in")
-                link.addClass("active")
-                active = true
-            }
-            div.append(link)
-        })
-        panel.append(div)
-        $("#"+accordion_id).append(panel)
+        cells.append(create_card(evento, accordion.attr('id')))
     })
-    if (first_one != null)
-        loadPresentation(first_one);
+
+    first_card = $(accordion.find('.collapse')[0])
+    first_card.addClass("show")
+    $(first_card.find('li > a')[0]).click()
 }
 
 function createViewer(slideviewer) {
-    $('#'+slideviewer).html(`
+    $('#' + slideviewer).append(`
     <div id="slides">
         <canvas id="the-canvas"></canvas>
         <div id="slide-navigation">
@@ -125,6 +135,6 @@ function createViewer(slideviewer) {
 
 var activate = function(el, accordion, url) {
     $("#" + accordion +' .active').removeClass('active');
-    el.classList.add('active');
+    $(el).parent().addClass('active');
     loadPresentation(url);
 }

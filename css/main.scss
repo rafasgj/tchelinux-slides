@@ -19,13 +19,6 @@ body {
     height: 100vh;
 }
 
-#content {
-    margin: 0 auto;
-    height: auto;
-    max-height: 65vh;
-    overflow: hidden;
-}
-
 #tux {
     filter: opacity(0.8);
     position: fixed;
@@ -42,7 +35,7 @@ h1.title {
     font-size: 64pt;
     font-family: Helvetica, sans-serif;
     font-weight: bolder;
-    padding: 10px;
+    padding: 30px;
     width: 100%;
     text-align: center;
 }
