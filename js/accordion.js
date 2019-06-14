@@ -70,7 +70,7 @@ function create_card(evento, accordion_id) {
             "aria-expanded": "true",
             "aria-controls": "collapse" + card_id
         })
-    event_city = $('<b>', { class:"city", text: evento.event })
+    event_city = $('<b>', { class:"city", text: evento.city })
     event_date = $('<small>', { class:"date", text: get_date(evento.date) })
     card_button.append(event_city).append(event_date)
     card_info.append(card_button)

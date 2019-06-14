@@ -1,56 +1,85 @@
 {
-    "id": "https://slides.tchelinux.org/"
+    "$id": "https://slides.tchelinux.org/slides.schema",
+    "$schema": "http://json-schema.org/draft-07/schema",
     "title": "Tchelinux Slides",
     "description": "JSON Schema for the Tchelinux Slides accordion object.",
     "type": "object",
+    "required": ["config", "data"],
     "properties": {
         "config": {
             "type": "object",
+            "description": "Accordion and Slideviewer configuration.",
+            "required": ["slideshow"],
             "properties": {
-                "slideshow": "boolean"
-            },
-            "required": "slideshow"
+                "slideshow": {
+                    "type": "boolean",
+                    "description": "Create the slideshow viewer if true."
+                }
+            }
         },
         "data": {
             "type": "array",
             "items": {
                 "type": "object",
+                "description": "Description and files of a Tchelinux event.",
+                "required": ["date", "cname", "event", "content"],
                 "properties": {
                     "date": {
                         "type": "string",
+                        "description": "Date of the event in the format YYYY-MM-DD.",
                         "format": "date"
                     },
                     "cname": {
-                        "type": "string"
+                        "type": "string",
+                        "description": "The code name used for the event.",
+                        "examples": [ "poa", "caxias", "santacruz" ]
                     },
-                    "event": {
-                        "type": "string"
+                    "city": {
+                        "type": "string",
+                        "description": "The city where the event was held.",
+                        "examples": [ "Porto Alegre", "Caxias do Sul", "Santa Cruz do Sul" ]
                     },
                     "content": {
                         "type": "array",
+                        "description": "Every item that is to be provided to users, be it the presentation slides, or an url",
                         "items": {
                             "type": "object",
+                            "required": ["title", "author"],
                             "properties": {
-                                "title": { "type": "string" },
-                                "subtitle": { "type": "string" },
-                                "author": { "type": "string" },
+                                "title": {
+                                    "type": "string",
+                                    "description": "Title of the presentation."
+                                },
+                                "subtitle": {
+                                    "type": "string",
+                                    "description": "Either the subtitle of the presentation, or information on the item.",
+                                    "examples": [ "A fun introduction.", "The code presented in the hands-on." ]
+                                },
+                                "author": {
+                                    "type": "string",
+                                    "description": "Name of the author."
+                                },
                                 "file": {
                                     "type": "string",
-                                    "format": "uri-reference"
+                                    "description": "Path to the PDF file, relative to the document root. Use this or 'url'.",
+                                    "format": "uri-reference",
+                                    "examples": [ "tchelinux/2019/somewhere/somefile.pdf" ]
                                 },
-                                "url": { "type": "string", "format": "uri" }
+                                "url": {
+                                    "type": "string",
+                                    "description": "A URL for an external resource. Use this or 'file'.",
+                                    "format": "uri",
+                                    "examples": [ "https://github.com/rafasgj/tchelinux-slides" ]
+                                }
                             },
                             "oneOf": [
                                 { "type": "string", "required": ["file"] },
                                 { "type": "string", "required": ["url"] }
-                            ],
-                            "required": ["title", "author"]
+                            ]
                         }
                     }
-                },
-                "required": ["date", "cname", "event", "content"]
+                }
             }
         }
-    },
-    "required": ["config", "data"]
+    }
 }

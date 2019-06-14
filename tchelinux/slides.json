@@ -6,7 +6,7 @@
         {
             "date": "2019-06-08",
             "cname": "camaqua",
-            "event": "Camaquã",
+            "city": "Camaquã",
             "content": [
                 {
                     "title": "Desenvolvendo Jogos com PyGame",
@@ -18,7 +18,7 @@
         {
             "date": "2019-05-11",
             "cname": "caxias",
-            "event": "Caxias do Sul",
+            "city": "Caxias do Sul",
             "content": [
                 {
                     "title": "Desenvolvendo Jogos com PyGame",
@@ -35,7 +35,7 @@
         {
             "date": "2019-04-27",
             "cname": "santacruz",
-            "event": "Santa Cruz do Sul",
+            "city": "Santa Cruz do Sul",
             "content": [
                 {
                     "title": "Desenvolvendo Jogos com PyGame",
@@ -47,7 +47,7 @@
         {
             "date": "2018-12-01",
             "cname": "poa",
-            "event": "Porto Alegre",
+            "city": "Porto Alegre",
             "content": [
                 {
                     "title": "Desenvolvendo Jogos com PyGame",
@@ -59,7 +59,7 @@
         {
             "date": "2018-09-01",
             "cname": "pelotas",
-            "event": "Pelotas",
+            "city": "Pelotas",
             "content": [
                 {
                     "title": "Desenvolvendo Jogos com PyGame",
@@ -71,7 +71,7 @@
         {
             "date": "2018-08-18",
             "cname": "caxias",
-            "event": "Caxias do Sul",
+            "city": "Caxias do Sul",
             "content": [
                 {
                     "title": "Não deixe para testar depois o que você pode testar antes.",
@@ -83,7 +83,7 @@
         {
             "date": "2018-06-09",
             "cname": "santacruz",
-            "event": "Santa Cruz do Sul",
+            "city": "Santa Cruz do Sul",
             "content": [
                 {
                     "title": "Não deixe para testar depois o que você pode testar antes.",
@@ -100,7 +100,7 @@
         {
             "date": "2017-10-21",
             "cname": "caxias",
-            "event": "Caxias do Sul",
+            "city": "Caxias do Sul",
             "content": [
                 {
                     "title": "OpenCV e Python",
@@ -118,7 +118,7 @@
         {
             "date": "2017-08-12",
             "cname": "nh",
-            "event": "Novo Hamburgo",
+            "city": "Novo Hamburgo",
             "content": [
                 {
                     "title": "OpenCV e Python",
@@ -136,7 +136,7 @@
         {
             "date": "2017-06-10",
             "cname": "pelotas",
-            "event": "Pelotas",
+            "city": "Pelotas",
             "content": [
                 {
                     "title": "Distribuições Linux",
@@ -160,7 +160,7 @@
         {
             "date": "2017-05-27",
             "cname": "santacruz",
-            "event": "Santa Cruz do Sul",
+            "city": "Santa Cruz do Sul",
             "content": [
                 {
                     "title": "Distribuições Linux",
@@ -183,7 +183,7 @@
         {
             "date": "2017-05-20",
             "cname": "poa",
-            "event": "Porto Alegre",
+            "city": "Porto Alegre",
             "content": [
                 {
                     "title": "Apresentação e Documentação de Projetos Open Source",
