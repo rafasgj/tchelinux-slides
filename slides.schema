@@ -1,0 +1,56 @@
+{
+    "id": "https://slides.tchelinux.org/"
+    "title": "Tchelinux Slides",
+    "description": "JSON Schema for the Tchelinux Slides accordion object.",
+    "type": "object",
+    "properties": {
+        "config": {
+            "type": "object",
+            "properties": {
+                "slideshow": "boolean"
+            },
+            "required": "slideshow"
+        },
+        "data": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "date": {
+                        "type": "string",
+                        "format": "date"
+                    },
+                    "cname": {
+                        "type": "string"
+                    },
+                    "event": {
+                        "type": "string"
+                    },
+                    "content": {
+                        "type": "array",
+                        "items": {
+                            "type": "object",
+                            "properties": {
+                                "title": { "type": "string" },
+                                "subtitle": { "type": "string" },
+                                "author": { "type": "string" },
+                                "file": {
+                                    "type": "string",
+                                    "format": "uri-reference"
+                                },
+                                "url": { "type": "string", "format": "uri" }
+                            },
+                            "oneOf": [
+                                { "type": "string", "required": ["file"] },
+                                { "type": "string", "required": ["url"] }
+                            ],
+                            "required": ["title", "author"]
+                        }
+                    }
+                },
+                "required": ["date", "cname", "event", "content"]
+            }
+        }
+    },
+    "required": ["config", "data"]
+}
