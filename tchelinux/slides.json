@@ -9,6 +9,16 @@
             "city": "Novo Hamburgo",
             "content": [
                 {
+                    "title": "Cerveja 'Open Source'",
+                    "url": "https://docs.google.com/presentation/d/1MZrE2_pbJ8sh0n0uJ2hHy8OKKrHD0NoYkVMTlCEUUA0",
+                    "author": "Thiago Rafael Becker"
+                },
+                {
+                    "title": "Faz essa coisinha com Arduino",
+                    "url": "https://docs.google.com/presentation/d/1XlHU3YboTM5FLbtCRa-S28NrjMe1LwnKFRxIUsQAI7A",
+                    "author": "Thiago Rafael Becker"
+                },
+                {
                     "title": "Essa câmera faz fotos muito boas, né?",
                     "file": "tchelinux/2019/nh/fotografia.pdf",
                     "author": "Rafael Guterres Jeffman"
