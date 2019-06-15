@@ -13,13 +13,21 @@ $('.accordion').each(function(index, accordion) {
 function create_body(content, acordion) {
     list = $("<ul>")
     content.forEach(function (palestra) {
-        item = $("<li>", {class: "item-list"})
+        item = $("<li>", {class: "item-list", style: "position: relative"})
         list.append(item)
-        anchor = $('<a>', {text: palestra.title})
+        if (palestra.file) {
+            item.append($("<i>",{class:"fas fa-desktop link-icon"}))
+        }
+        else if (palestra.url) {
+            item.append($("<i>",{
+                    class: "fas fa-external-link-square-alt link-icon",
+                }))
+        }
+        anchor = $('<a>', {text: palestra.title + " "})
 
         if (palestra.url) {
             anchor.attr("href", palestra.url)
-            anchor.attr("targen", "_blank")
+            anchor.attr("target", "_blank")
         }
 
         if (palestra.file) {

@@ -89,11 +89,28 @@
     text-align: left;
 }
 
+#download {
+    padding: 3px 0 0 0;
+    height: 100%;
+}
+
+#download > *, #next > *, #prev * {
+    color: $white !important;
+}
+
+.city {
+    color: $white !important;
+}
+
+.date {
+    color: $white !important;
+}
+
 li.item-list { // each keynote
     list-style: none;
 }
 
-li.item-list.active > a {
+li.item-list.active > a, li.item-list.active > .link-icon {
     color: $yellow !important;
     font-weight: bolder;
 }
@@ -106,11 +123,25 @@ li.item-list > a {
 li.item-list:hover:not(.active) {
     background-color: $transparent-lighter !important;
 }
+li.item-list:hover:not(.active) > .link-icon {
+    color: $darkgray !important;
+}
+li.item-list:hover:not(.active) > a {
+    color: $darkgray !important;
+}
+
 li.item-list > a:hover {
     text-decoration: none;
 }
 li.item-list:not(.active) > a:hover {
     color: $darkgray !important;
+}
+
+.link-icon {
+    top:5px;
+    position: absolute;
+    right: 5px;
+    color: $white !important;
 }
 
 .subtitle {
