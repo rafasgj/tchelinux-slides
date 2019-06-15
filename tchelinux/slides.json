@@ -9,6 +9,11 @@
             "city": "Novo Hamburgo",
             "content": [
                 {
+                    "title": "Criando uma imagem Linux com Buildroot para o Raspberry-Pi",
+                    "file": "tchelinux/2019/nh/buildroot.pdf",
+                    "author": "Rafael Guterres Jeffman"
+                },
+                {
                     "title": "Cerveja 'Open Source'",
                     "url": "https://docs.google.com/presentation/d/1MZrE2_pbJ8sh0n0uJ2hHy8OKKrHD0NoYkVMTlCEUUA0",
                     "author": "Thiago Rafael Becker"
