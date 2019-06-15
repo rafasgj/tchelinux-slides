@@ -4,6 +4,28 @@
     },
     "data": [
         {
+            "date": "2019-06-15",
+            "cname": "nh",
+            "city": "Novo Hamburgo",
+            "content": [
+                {
+                    "title": "Essa câmera faz fotos muito boas, né?",
+                    "file": "tchelinux/2019/nh/fotografia.pdf",
+                    "author": "Rafael Guterres Jeffman"
+                },
+                {
+                    "title": "Desenvolvendo Jogos com PyGame",
+                    "file": "tchelinux/2019/nh/pygame.pdf",
+                    "author": "Rafael Guterres Jeffman"
+                },
+                {
+                    "title": "App Web em 10 minutos com Python e Web2Py",
+                    "author": "Mauro Duarte",
+                    "file": "tchelinux/2019/nh/mauro_duarte.pdf"
+                }
+            ]
+        },
+        {
             "date": "2019-06-08",
             "cname": "camaqua",
             "city": "Camaquã",
