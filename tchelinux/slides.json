@@ -9,6 +9,21 @@
             "city": "Novo Hamburgo",
             "content": [
                 {
+                    "title": "Como ter sucesso com Software Livre?",
+                    "file": "tchelinux/2019/nh/sucesso_com_software_livre.pdf",
+                    "author": "Cristiano dos Santos Diedrich"
+                },
+                {
+                    "title": "DevOps: Passado, presente e futuro",
+                    "file": "tchelinux/2019/nh/devops_passado_presente_futuro.pdf",
+                    "author": "Cristiano dos Santos Diedrich"
+                },
+                {
+                    "title": "Python desde o Zero",
+                    "file": "tchelinux/2019/nh/adriano_margarin.pdf",
+                    "author": "Rafael Guterres Jeffman"
+                },
+                {
                     "title": "Criando uma imagem Linux com Buildroot para o Raspberry-Pi",
                     "file": "tchelinux/2019/nh/buildroot.pdf",
                     "author": "Rafael Guterres Jeffman"
