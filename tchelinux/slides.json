@@ -9,6 +9,11 @@
             "city": "Novo Hamburgo",
             "content": [
                 {
+                    "title": "Introdução ao Spring Boot MVC no Java Servlet Stack com a aplicação Pet Clinic",
+                    "file": "tchelinux/2019/nh/mangan_nh_tche_linux_spring_2019_1.pdf",
+                    "author": "Marco Aurélio Souza Mangan"
+                },
+                {
                     "title": "Como ter sucesso com Software Livre?",
                     "file": "tchelinux/2019/nh/sucesso_com_software_livre.pdf",
                     "author": "Cristiano dos Santos Diedrich"
@@ -72,6 +77,11 @@
             "cname": "caxias",
             "city": "Caxias do Sul",
             "content": [
+                {
+                    "title": "Introdução ao Spring Boot MVC no Java Servlet Stack com a aplicação Pet Clinic",
+                    "file": "tchelinux/2019/nh/mangan_nh_tche_linux_spring_2019_1.pdf",
+                    "author": "Marco Aurélio Souza Mangan"
+                },
                 {
                     "title": "Desenvolvendo Jogos com PyGame",
                     "file": "tchelinux/2019/caxias/pygame.pdf",
