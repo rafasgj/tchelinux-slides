@@ -141,7 +141,7 @@
                 },
                 {
                     "title": "12 Factor App - Web apps em qualquer lugar",
-                    "file": "tchelinux/2019/santacruz/12 Factor Apps - Tonin Bolzan.pdf",
+                    "file": "tchelinux/2019/santacruz/12-factor-apps-tonin-bolzan.pdf",
                     "author": "Tonin Bolzan"
                 }
             ]
@@ -165,72 +165,72 @@
             "content": [
                 {
                     "title": "Implementação de uma estrutura de de Business Intelligence",
-                    "file": "tchelinux/2018/santamaria/Implementação de uma estrutura de de Business Intelligence- Ronai Savegnago Ribeiro.pdf",
+                    "file": "tchelinux/2018/santamaria/implementacao-de-uma-estrutura-de-de-bi-ronai-savegnago-ribeiro.pdf",
                     "author": "Ronai Savegnago Ribeiro"
                 },
                 {
                     "title": "Docker Hands-on",
-                    "file": "tchelinux/2018/santamaria/Docker Hands-On - Tonin Bolzan.pdf",
+                    "file": "tchelinux/2018/santamaria/docker-hands-on-tonin-bolzan.pdf",
                     "author": "Tonin Bolzan"
                 },
                 {
                     "title": ".Net Core: Quebrando preconceitos",
-                    "file": "tchelinux/2018/santamaria/Net Core - Quebrando preconceitos",
+                    "file": "tchelinux/2018/santamaria/net-core-quebrando-preconceitos.pdf",
                     "author": "Diego Spiegelberg Zuge"
                 },
                 {
                     "title": "DevOps na Prática - Evolução na entrega ao cliente",
-                    "file": "tchelinux/2018/santamaria/DevOps na prática - Frederico Oliveira e Matias Richa.pdf",
+                    "file": "tchelinux/2018/santamaria/devops-na-pratica-frederico-oliveira-e-matias-richa.pdf",
                     "author": "Frederico Inácio de Oliveira, Matias Huegel Richa"
                 },
                 {
                     "title": "Um caso de migração para microserviços",
-                    "file": "tchelinux/2018/santamaria/Caso de Migração para Microserviços - Tiago Roberto Lammers.pdf",
+                    "file": "tchelinux/2018/santamaria/caso-de-migracao-para-microservicos-tiago-roberto-lammers.pdf",
                     "author": "Tiago Roberto Lammers"
                 },
                 {
                     "title": "Como Administrar SQL Server no Linux",
-                    "file": "tchelinux/2018/santamaria/Como Administrar SQL _Server no Linux - Rodrigo Crespi.pdf",
+                    "file": "tchelinux/2018/santamaria/como-administrar-sql-server-no-linux-rodrigo-crespi.pdf",
                     "author": "Rodrigo Crespi"
                 },
                 {
                     "title": "Empreendendo um SaaS na área de saúde usando softwre livre",
-                    "file": "tchelinux/2018/santamaria/Empreendendo um SaaS Usando software livre - Robertson E.S..pdf",
+                    "file": "tchelinux/2018/santamaria/empreendendo-um-saas-usando-software-livre-robertson.pdf",
                     "author": "Robertson Ebling dos Santos"
                 },
                 {
                     "title": "Aplicações Mobile Híbridas",
-                    "file": "tchelinux/2018/santamaria/Aplicações Mobile Híbridas - Luiz Antonio G. Rodrigues Junior.pdf",
+                    "file": "tchelinux/2018/santamaria/aplicacoes-mobile-hibridas-luiz-antonio.pdf",
                     "author": "Luiz Antonio G. Rodrigues Jr."
                 },
                 {
                     "title": "Você está seguro hoje ?",
-                    "file": "tchelinux/2018/santamaria/Você está seguro hoje - Tiago Castilhos.pdf",
+                    "file": "tchelinux/2018/santamaria/voce-esta-seguro-hoje-tiago-castilhos.pdf",
                     "author": "Tiago Castilhos"
                 },
                 {
                     "title": "Flutter/Dart do Zero",
-                    "file": "tchelinux/2018/santamaria/Flutter-Dart do Zero - Roger Vargas.pdf",
+                    "file": "tchelinux/2018/santamaria/flutter-dart-do-zero-roger-vargas.pdf",
                     "author": "Roger Vargas"
                 },
                 {
                     "title": "Monitoramento de Ambientes com OSSEC",
-                    "file": "tchelinux/2018/santamaria/Monitoramento de Ambientes com OSSEC - Diego Costa.pdf",
+                    "file": "tchelinux/2018/santamaria/monitoramento-de-ambientes-com-ossec-diego-costa.pdf",
                     "author": "Diego Costa"
                 },
                 {
                     "title": "Nanociência: Tecnologias Livres para Simulação de Sistemas Nanoparticulados",
-                    "file": "tchelinux/2018/santamaria/Nanociência Tecnologias Livres para Simulação de  Sistemas Nanoparticulados - Alexandre Zamberlan",
+                    "file": "tchelinux/2018/santamaria/nanociencia-tecnologias-livres-para-simulacao-de-sistemas-nanoparticulados-alexandre-zamberlan.pdf",
                     "author": "Alexandre Zamberlan"
                 },
                 {
                     "title": "(IN)Segurança na INternet",
-                    "file": "tchelinux/2018/santamaria/(IN)Segurança na INternet - Diego Costa.pdf",
+                    "file": "tchelinux/2018/santamaria/in-seguranca-na-internet-diego-costa.pdf",
                     "author": "Diego Costa"
                 },
                 {
                     "title": "Do Kernel ao Business",
-                    "file": "tchelinux/2018/santamaria/Do Kernel ao Business - José Luiz Rodrigues Filho.pdf",
+                    "file": "tchelinux/2018/santamaria/do-kernel-ao-business-jose-luiz-rodrigues-filho.pdf",
                     "author": "José Luiz Rodrigues Filho"
                 }
             ]
@@ -276,7 +276,7 @@
                 },
                 {
                     "title": "Bem vindo ao mundo dos Contêineres",
-                    "file": "tchelinux/2018/santacruz/Containers - Tonin Bolzan.pdf",
+                    "file": "tchelinux/2018/santacruz/containers-tonin-bolzan.pdf",
                     "author": "Tonin Bolzan"
                 }
             ]
