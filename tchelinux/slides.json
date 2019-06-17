@@ -9,9 +9,29 @@
             "city": "Novo Hamburgo",
             "content": [
                 {
+                    "title": "Entendendo o systemd.",
+                    "file": "tchelinux/2019/nh/systemd-avelino.pdf",
+                    "author": "João Avelino Bellomo Filho"
+                },
+                {
+                    "title": "Conhecendo os Side Channel Attacks.",
+                    "file": "tchelinux/2019/nh/side-channel-attack.pdf",
+                    "author": "Tiago tatim Rodeghiero"
+                },
+                {
+                    "title": "Git para Principiantes.",
+                    "file": "tchelinux/2019/nh/git-para-principiantes-2019.pdf",
+                    "author": "Fabio Beneditto"
+                },
+                {
                     "title": "Escrita acadêmica com o Latex.",
                     "file": "tchelinux/2019/nh/OficinaLatex_TcheLinuxNH2019-Kayser.pdf",
                     "author": "Patrícia Kayser Vargas Mangan"
+                },
+                {
+                    "title": "Ansible e Terraform: Tornando a Infra Mais Ágil",
+                    "file": "tchelinux/2019/nh/cristhian_bicca.pdf",
+                    "author": "Cristhian Bicca"
                 },
                 {
                     "title": "Como ter sucesso com Software Livre?",
