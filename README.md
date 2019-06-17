@@ -20,3 +20,5 @@ que contém a descrição dos dados que serão mostrados aos usuários.
 ## JSON Schema
 
 O arquivo `slides.schema` contém o JSON schema do arquivo `slides.json.`
+
+A validação foi verificada com o `jsonschema` disponível no PyPi.

@@ -1,6 +1,6 @@
 {
     "$id": "https://slides.tchelinux.org/slides.schema",
-    "$schema": "http://json-schema.org/draft-07/schema",
+    "$schema": "http://json-schema.org/draft-07/schema#",
     "title": "Tchelinux Slides",
     "description": "JSON Schema for the Tchelinux Slides accordion object.",
     "type": "object",
@@ -22,7 +22,7 @@
             "items": {
                 "type": "object",
                 "description": "Description and files of a Tchelinux event.",
-                "required": ["date", "cname", "event", "content"],
+                "required": ["date", "cname", "city", "content"],
                 "properties": {
                     "date": {
                         "type": "string",
@@ -45,6 +45,10 @@
                         "items": {
                             "type": "object",
                             "required": ["title", "author"],
+                            "oneOf": [
+                                { "required": ["file"] },
+                                { "required": ["url"] }
+                            ],
                             "properties": {
                                 "title": {
                                     "type": "string",
@@ -71,11 +75,7 @@
                                     "format": "uri",
                                     "examples": [ "https://github.com/rafasgj/tchelinux-slides" ]
                                 }
-                            },
-                            "oneOf": [
-                                { "type": "string", "required": ["file"] },
-                                { "type": "string", "required": ["url"] }
-                            ]
+                            }
                         }
                     }
                 }
