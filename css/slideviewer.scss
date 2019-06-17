@@ -20,7 +20,7 @@
 
 .accordion-cells {
     border-radius: 5px;
-    background-color: $transparent-dark;
+    background-color: $transparent-light;
 }
 
 #slideviewer {
@@ -32,22 +32,16 @@
     border: $white 3px solid;
     background-color: $transparent-dark;
     display: inline-block;
-}
-
-#slides {
     text-align: center;
-    margin: 0 auto;
-    height: 100%;
-    background: url(/assets/images/loading.gif) no-repeat center;
-    background-size: 150px 150px;
+    position: relative;
 }
 
 #the-canvas {
+    background: url(/assets/images/loading.gif) no-repeat center;
+    background-size: 100px 100px;
     max-width: 100%;
-    padding: 0;
-    margin: auto 0;
-    height: calc(100% - 50px);
-    margin: 0 auto;
+    max-height: calc(100% - 50px);
+    margin: auto;
 }
 
 #slide-navigation {
@@ -57,6 +51,8 @@
     height: 50px;
     width: 100%;
     text-align: center;
+    position: absolute;
+    bottom: 0px;
 }
 
 .evento { // card
@@ -110,6 +106,7 @@
 
 li.item-list { // each keynote
     list-style: none;
+    padding-right: 1em;
 }
 
 li.item-list.active > a, li.item-list.active > .link-icon {
@@ -184,45 +181,5 @@ small.author {
     display: block;
 }
 
-@media (max-width:$phone) {
-
-    #content {
-        width: 95vw;
-        max-width: 95vw;
-    }
-
-    .accordion {
-        width:100%;
-        margin: 0 auto 1em auto;
-        padding: 5px 5px 5px 5px !important;
-        border-radius: 2px;
-        font-size: 90%;
-        max-height: 40vh;
-    }
-
-    #slideviewer {
-        margin-top: 5em;
-        vertical-align: top;
-        width: 100%;
-        display: block;
-        float: none;
-        margin: auto;
-        height: auto;
-    }
-
-    #the-canvas {
-        height: auto;
-        width: 100%;
-    }
-
-}
-
-@media (min-width: $tablet) and (max-width: $monitor) {
-    .accordion {
-        min-width: 250px;
-        margin: 0 auto;
-        padding: 5px 5px 5px 5px !important;
-        border-radius: 2px;
-        font-size: 90%;
-    }
-}
+@import 'media/phone';
+@import 'media/tablet';

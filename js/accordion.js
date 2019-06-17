@@ -120,23 +120,21 @@ function fillData(accordion, data) {
 
 function createViewer(slideviewer) {
     $('#' + slideviewer).append(`
-    <div id="slides">
-        <canvas id="the-canvas"></canvas>
-        <div id="slide-navigation">
-            <button class="btn btn-default" id="prev">
-                <span class="fa fa-chevron-left" aria-hidden="true"></span>
-            </button>
-            <span>Page: <span id="page_num"></span> /
-                        <span id="page_count"></span>
-            </span>
-            <button class="btn btn-default" id="next">
-                <span class="fa fa-chevron-right" aria-hidden="true"></span>
-            </button>
-            <a role="button" class="btn btn-default btn-lg" id="download" href=""
-               style="float:right;margin-right:1em" download>
-                <span class="fa fa-cloud-download-alt" aria-hidden="true"></span>
-            </a>
-        </div>
+    <canvas id="the-canvas"></canvas>
+    <div id="slide-navigation">
+        <button class="btn btn-default" id="prev">
+            <span class="fa fa-chevron-left" aria-hidden="true"></span>
+        </button>
+        <span>Page: <span id="page_num"></span> /
+                    <span id="page_count"></span>
+        </span>
+        <button class="btn btn-default" id="next">
+            <span class="fa fa-chevron-right" aria-hidden="true"></span>
+        </button>
+        <a role="button" class="btn btn-default btn-lg" id="download" href=""
+           style="float:right;margin-right:1em" download>
+            <span class="fa fa-cloud-download-alt" aria-hidden="true"></span>
+        </a>
     </div>
   `)
 }

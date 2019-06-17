@@ -71,9 +71,12 @@ function loadPresentation(url) {
     const baseHref = ""
     document.getElementById('prev').addEventListener('click', onPrevPage);
     document.getElementById('next').addEventListener('click', onNextPage);
-    document.getElementById('download').setAttribute('href',doc);
+
     canvas = document.getElementById('the-canvas')
     ctx = canvas.getContext('2d')
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    document.getElementById('download').setAttribute('href', doc);
 
     pageNum = 1
 
