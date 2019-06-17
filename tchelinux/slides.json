@@ -9,14 +9,29 @@
             "city": "Novo Hamburgo",
             "content": [
                 {
-                    "title": "Introdução ao Spring Boot MVC no Java Servlet Stack com a aplicação Pet Clinic",
-                    "file": "tchelinux/2019/nh/mangan_nh_tche_linux_spring_2019_1.pdf",
-                    "author": "Marco Aurélio Souza Mangan"
+                    "title": "Escrita acadêmica com o Latex.",
+                    "file": "tchelinux/2019/nh/OficinaLatex_TcheLinuxNH2019-Kayser.pdf",
+                    "author": "Patrícia Kayser Vargas Mangan"
                 },
                 {
                     "title": "Como ter sucesso com Software Livre?",
                     "file": "tchelinux/2019/nh/sucesso_com_software_livre.pdf",
                     "author": "Cristiano dos Santos Diedrich"
+                },
+                {
+                    "title": "Uma Não Gentil Introdução Ao Stream Processing",
+                    "url": "https://presentations.juliobiason.net/porque-rust.html#/",
+                    "author": "Julio Biason"
+                },
+                {
+                    "title": "Por que você deve aprender Rust",
+                    "url": "https://presentations.juliobiason.net/porque-rust.html#/",
+                    "author": "Julio Biason"
+                },
+                {
+                    "title": "Introdução ao Spring Boot MVC no Java Servlet Stack com a aplicação Pet Clinic",
+                    "file": "tchelinux/2019/nh/mangan_nh_tche_linux_spring_2019_1.pdf",
+                    "author": "Marco Aurélio Souza Mangan"
                 },
                 {
                     "title": "DevOps: Passado, presente e futuro",
