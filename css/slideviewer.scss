@@ -31,6 +31,8 @@
     border-radius: 5px;
     border: $white 3px solid;
     background-color: $transparent-dark;
+    background: url(/assets/images/loading.gif) no-repeat center;
+    background-size: 150px 150px;
     display: inline-block;
 }
 
