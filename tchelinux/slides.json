@@ -29,6 +29,12 @@
                     "author": "Patrícia Kayser Vargas Mangan"
                 },
                 {
+                    "title": "Nativo, Híbrido ou PWA?",
+                    "subtitle": "O que escolher para meu app?",
+                    "file": "tchelinux/2019/nh/nativo-hibrido-pwa.pdf",
+                    "author": "Jefferson Cardoso"
+                },
+                {
                     "title": "Ansible e Terraform: Tornando a Infra Mais Ágil",
                     "file": "tchelinux/2019/nh/cristhian_bicca.pdf",
                     "author": "Cristhian Bicca"
