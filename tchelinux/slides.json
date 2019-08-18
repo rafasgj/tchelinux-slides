@@ -4,6 +4,19 @@
     },
     "data": [
         {
+            "date": "2019-08-24",
+            "cname": "pelotas",
+            "city": "Pelotas",
+            "content": [
+                {
+                    "title": "Open Source Photography",
+                    "subtitle": "Onde estamos? Para onde vamos?",
+                    "author": "Rafael Guterres Jeffman",
+                    "file": "tchelinux/2019/pelotas/fotografia.pdf"
+                }
+            ]
+        },
+        {
             "date": "2019-06-15",
             "cname": "nh",
             "city": "Novo Hamburgo",
