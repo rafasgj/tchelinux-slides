@@ -9,10 +9,60 @@
             "city": "Pelotas",
             "content": [
                 {
+                    "title": "Rock 'N'Code",
+                    "subtitle": "Como criar música programando.",
+                    "author": "Jerônimo Medina Madruga",
+                    "file": "tchelinux/2019/pelotas/madruga-rock.pdf"
+                },
+                {
                     "title": "Open Source Photography",
                     "subtitle": "Onde estamos? Para onde vamos?",
                     "author": "Rafael Guterres Jeffman",
                     "file": "tchelinux/2019/pelotas/fotografia.pdf"
+                },
+                {
+                    "title": "Introdução ao desenvolvimento Android com Kotlin",
+                    "author": "Ricardo Peixoto Robaina",
+                    "file": "tchelinux/2019/pelotas/android-kotlin.pdf"
+                },
+                {
+                    "title": "Dados no espaço-tempo",
+		    "subtitle": "Trabalhando com Dados Georreferenciados no MongoDB",
+                    "author": "Ricardo Peixoto Robaina",
+                    "file": "tchelinux/2019/pelotas/mongoGeo.pdf"
+                },
+                {
+                    "title": "Aumentando a segurança em casa",
+		    "subtitle": "hands on prático e simples",
+                    "author": "Diego Luiz Silva da Costa",
+                    "file": "tchelinux/2019/pelotas/projetoroot-seguranca-handson.pdf"
+                },
+                {
+                    "title": "(In)Segurança na Internet",
+                    "author": "Diego Luiz Silva da Costa",
+                    "file": "tchelinux/2019/pelotas/projetoroot-inseguranca-internet.pdf"
+                },
+                {
+                    "title": "Maneiras fantásticas de tornar sua organização pessoal mais refrescante do que meias limpas!",
+                    "author": "Júlio César Medina Madruga",
+                    "file": "tchelinux/2019/pelotas/juliomedina-meiaslimpas.pdf"
+                },
+                {
+                    "title": "Afinal o que aconteceu com o HTTP2?",
+                    "author": "Nelson Dutra Júnior",
+                    "file": "tchelinux/2019/pelotas/nelson-http2.pdf"
+                },
+                {
+                    "title": "O bom, o mau e o feio",
+		    "subtitle": "Três momentos da instalação do Linux",
+                    "author": "Vinícius Alves Hax",
+                    "file": "tchelinux/2019/pelotas/viniciushax-bom-mau-feio.pdf"
+                },
+                {
+                    "title": "Banco de Dados",
+		    "subtitle": "Elaborand soluções de qualidade para o seu projeto.",
+                    "author": "Willian Barreto Froes",
+                    "file": "tchelinux/2019/pelotas/willian-bancodedados.pdf"
                 }
             ]
         },
