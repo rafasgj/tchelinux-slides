@@ -53,6 +53,12 @@
                     "file": "tchelinux/2019/pelotas/nelson-http2.pdf"
                 },
                 {
+                    "title": "PHP e PostgreSQL",
+		    "subtitle": "Dois elefantes ajudando no seu Projeto!",
+                    "author": "Everton Catto Heckler",
+                    "file": "tchelinux/2019/pelotas/everton-php-postgre.pdf"
+                },
+                {
                     "title": "O bom, o mau e o feio",
 		    "subtitle": "Três momentos da instalação do Linux",
                     "author": "Vinícius Alves Hax",
