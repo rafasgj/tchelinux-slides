@@ -4,6 +4,24 @@
     },
     "data": [
         {
+            "date": "2019-08-31",
+            "cname": "santoangelo",
+            "city": "Santo Ângelo",
+            "content": [
+                {
+                    "title": "Linux Desktop",
+                    "subtitle": "O Pingüim e o Usuário Final.",
+                    "author": "Cassiano Molinari",
+                    "file": "tchelinux/2019/santoangelo/molinari-desktop.pdf"
+                },
+                {
+                    "title": "Monitoramento de equipamentos em infraestrutura de rede com Zabbix",
+                    "author": "Rafael Rohden",
+                    "file": "tchelinux/2019/santoangelo/rohden-zabbix.pdf"
+                }
+            ]
+        },
+        {
             "date": "2019-08-24",
             "cname": "pelotas",
             "city": "Pelotas",
