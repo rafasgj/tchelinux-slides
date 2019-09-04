@@ -9,6 +9,11 @@
             "city": "Santo Ângelo",
             "content": [
                 {
+                    "title": "Softwares Livres e o Ensino à Distância",
+                    "author": "Julio Mallmann",
+                    "file": "tchelinux/2019/santoangelo/mallmann-sw-ensino.pdf"
+                },
+                {
                     "title": "Linux Desktop",
                     "subtitle": "O Pingüim e o Usuário Final.",
                     "author": "Cassiano Molinari",
