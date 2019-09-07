@@ -32,6 +32,27 @@
             "city": "Pelotas",
             "content": [
                 {
+                    "title": "O que mudou ao longo de 25 anos trabalhando com Software Livre?",
+                    "author": "Carlos Santos",
+                    "file": "tchelinux/2019/pelotas/Tchelinux_2019_25_anos_de_SL.pdf"
+                },
+                {
+                    "title": "O que mudou ao longo de 25 anos trabalhando com Software Livre?",
+                    "author": "Carlos Santos",
+                    "file": "tchelinux/2019/pelotas/Tchelinux_2019_fazer_meu_SO.pdf"
+                },
+                {
+                    "title": "Softwares Livres e o Ensino à Distância",
+                    "author": "Julio Mallmann",
+                    "file": "tchelinux/2019/santoangelo/mallmann-sw-ensino.pdf"
+                },
+                {
+                    "title": "Linux Desktop",
+                    "subtitle": "O Pingüim e o Usuário Final.",
+                    "author": "Cassiano Molinari",
+                    "file": "tchelinux/2019/santoangelo/molinari-desktop.pdf"
+                },
+                {
                     "title": "Rock 'N'Code",
                     "subtitle": "Como criar música programando.",
                     "author": "Jerônimo Medina Madruga",
