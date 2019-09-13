@@ -4,6 +4,18 @@
     },
     "data": [
         {
+            "date": "2019-09-14",
+            "cname": "alegrete",
+            "city": "Alegrete",
+            "content": [
+                {
+                    "title": "Case de Gestão Administrativa e Modularizada com uso do GLPI",
+                    "author": "Ricardo Lazzari da Rosa",
+                    "file": "tchelinux/2019/alegrete/ricardo-gestao.pdf"
+                }
+            ]
+        },
+        {
             "date": "2019-08-31",
             "cname": "santoangelo",
             "city": "Santo Ângelo",
