@@ -9,9 +9,20 @@
             "city": "Alegrete",
             "content": [
                 {
+                    "title": "Bem vindo ao mundo dos containers",
+                    "author": "Tonin R. Bolzan",
+                    "file": "tchelinux/2019/alegrete/tonin-containers.pdf"
+                },
+                {
                     "title": "Case de Gestão Administrativa e Modularizada com uso do GLPI",
                     "author": "Ricardo Lazzari da Rosa",
                     "file": "tchelinux/2019/alegrete/ricardo-gestao.pdf"
+                },
+                {
+                    "title": "Desenvolvimento Mobile",
+                    "subtitle": "Introdução ao Flutter",
+                    "author": "Márcio Fiorenza",
+                    "file": "tchelinux/2019/alegrete/marcio-flutter.pdf"
                 }
             ]
         },
