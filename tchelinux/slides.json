@@ -4,11 +4,33 @@
     },
     "data": [
         {
+            "date": "2019-09-28",
+            "cname": "erechim",
+            "city": "Erechim",
+            "content": [
+                {
+                    "title": "Pentaho",
+                    "subtitle": "Garantindo o sucesso do BI"
+                    "author": "Tatiana Cavalheri",
+                    "file": "tchelinux/2019/alegrete/tatiana-pentaho.pdf"
+                },
+                {
+                    "title": "O Maravilhoso Mundo das Competições Capture the Flag (CTF)",
+                    "author": "Álison Bertochi",
+                    "file": "tchelinux/2019/alegrete/alison-ctf.pdf"
+                },
+                {
+                    "title": "Software Livre em Ambientes Empresariais",
+                    "author": "Marcos Lucas",
+                    "file": "tchelinux/2019/alegrete/marcoslucas-ambientes-empresariais.pdf"
+                }
+            ]
+        },
+        {
             "date": "2019-09-14",
             "cname": "alegrete",
             "city": "Alegrete",
             "content": [
-                Automação de Testes de Software Mobile
                 {
                     "title": "Automação de Testes de Software Mobile",
                     "author": "Luana Lima de Freitas",
