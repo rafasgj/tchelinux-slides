@@ -15,6 +15,11 @@
                     "file": "tchelinux/2019/erechim/tatiana-pentaho.pdf"
                 },
                 {
+                    "title": "Mulheres, Tecnologia e Sororidade",
+                    "author": "Leonara Lorini",
+                    "file": "tchelinux/2019/erechim/leonara-mulheres-tecnologia-sororidade.pdf"
+                },
+                {
                     "title": "O Maravilhoso Mundo das Competições Capture the Flag (CTF)",
                     "author": "Álison Bertochi",
                     "file": "tchelinux/2019/erechim/alison-ctf.pdf"
@@ -22,7 +27,7 @@
                 {
                     "title": "Software Livre em Ambientes Empresariais",
                     "author": "Marcos Lucas",
-                    "file": "tchelinux/2019/erechim/marcoslucas-ambientes-empresariais.pdf"
+                    "file": "tchelinux/2019/erechim/marcoslucas-ambiente-empresariais.pdf"
                 }
             ]
         },
