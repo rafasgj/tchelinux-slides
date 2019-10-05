@@ -4,6 +4,24 @@
     },
     "data": [
         {
+            "date": "2019-10-05",
+            "cname": "bage",
+            "city": "Bagé",
+            "content": [
+                {
+                    "title": "Web Scaping",
+                    "subtitle": "A arte de automatizar a recuperação de informação na Web",
+                    "author": "Alex Dias Camargo",
+                    "file": "alex-web-scraping.pdf"
+                },
+                {
+                    "title": "Introdução ao Desenvolvimento Móvel com Ionic",
+                    "author": "Rafael Guterres Jeffman",
+                    "file": "jeffman-ionic.pdf"
+                }
+            ]
+        },
+        {
             "date": "2019-09-28",
             "cname": "erechim",
             "city": "Erechim",
