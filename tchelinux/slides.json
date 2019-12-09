@@ -8,6 +8,26 @@
             "cname": "santamaria",
             "city": "Santa Maria",
             "content": [
+                {
+                    "title": "Riscos e Falhas",
+                    "author": "Marco Antonio Martins Junior",
+                    "file": "tchelinux/2019/santamaria/marcoantonio-riscos-falhas.pdf"
+                },
+                {
+                    "title": "Você pode jogar no Linux?",
+                    "author": "Manuel de Jesus Pérez Vieira",
+                    "file": "tchelinux/2019/santamaria/manuel-jogos.pdf"
+                },
+                {
+                    "title": "Case de Gestão Administrativa e Modularizada com uso do GLPI",
+                    "author": "Ricardo Lazzari da Rosa",
+                    "file": "tchelinux/2019/santamaria/ricardo-gestao.pdf"
+                },
+                {
+                    "title": "Controlador de Domínio e Compartilhamento de Arquivos com Samba 4",
+                    "author": "Alexandre Mendes",
+                    "file": "tchelinux/2019/santamaria/palestra_samba4.pdf"
+                },
             ]
         },
         {
@@ -18,12 +38,12 @@
                 {
                     "title": "Ferramentas Open Source para Ethical Hacking",
                     "author": "Mateus Buogo",
-                    "file": "tchelinux/2019/bage/mateus-ethical-hacking.pdf"
+                    "file": "tchelinux/2019/bento/mateus-ethical-hacking.pdf"
                 },
                 {
                     "title": "Gestão de Redes com SNMP",
                     "author": "Eduardo Silveira",
-                    "file": "tchelinux/2019/bage/eduardo-snmp.pdf"
+                    "file": "tchelinux/2019/bento/eduardo-snmp.pdf"
                 },
             ]
         },
