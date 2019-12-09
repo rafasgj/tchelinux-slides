@@ -33,6 +33,11 @@
             "city": "Santa Maria",
             "content": [
                 {
+                    "title": "Empodere sua Comunidade",
+                    "author": "Camile de Paula Silva",
+                    "file": "tchelinux/2019/santamaria/camile-empodere-comunidade.pdf"
+                },
+                {
                     "title": "Riscos e Falhas",
                     "author": "Marco Antonio Martins Junior",
                     "file": "tchelinux/2019/santamaria/marcoantonio-riscos-falhas.pdf"
