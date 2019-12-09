@@ -4,10 +4,51 @@
     },
     "data": [
         {
+            "date": "2019-11-09",
+            "cname": "santamaria",
+            "city": "Santa Maria",
+            "content": [
+            ]
+        },
+        {
+            "date": "2019-10-19",
+            "cname": "bento",
+            "city": "Bento Gonçalves",
+            "content": [
+                {
+                    "title": "Ferramentas Open Source para Ethical Hacking",
+                    "author": "Mateus Buogo",
+                    "file": "tchelinux/2019/bage/mateus-ethical-hacking.pdf"
+                },
+            ]
+        },
+        {
             "date": "2019-10-05",
             "cname": "bage",
             "city": "Bagé",
             "content": [
+                {
+                    "title": "Golang",
+                    "subtitle": "a linguagem de programação mais esperada do ano",
+                    "author": "Ricardo Robaina",
+                    "file": "tchelinux/2019/bage/robaina-golang.pdf"
+                },
+                {
+                    "title": "Introdução ao desenvolvimento Android com Kotlin",
+                    "author": "Ricardo Robaina",
+                    "file": "tchelinux/2019/bage/robaina-kotlin.pdf"
+                },
+                {
+                    "title": "Dados no espaço-tempo",
+                    "subtitle": "Trabalhando com Dados Georreferenciados no MongoDB ",
+                    "author": "Ricardo Robaina",
+                    "file": "tchelinux/2019/bage/robaina-mongodb.pdf"
+                },
+                {
+                    "title": "Mecanismos anti-exploit nativos em distribuições Linux da atualidade",
+                    "author": "Roner Rodriguez",
+                    "file": "tchelinux/2019/bage/roner-anti-exploit.pdf"
+                },
                 {
                     "title": "Web Scaping",
                     "subtitle": "A arte de automatizar a recuperação de informação na Web",
