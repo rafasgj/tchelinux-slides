@@ -56,7 +56,7 @@
                     "title": "Controlador de Domínio e Compartilhamento de Arquivos com Samba 4",
                     "author": "Alexandre Mendes",
                     "file": "tchelinux/2019/santamaria/palestra_samba4.pdf"
-                },
+                }
             ]
         },
         {
@@ -73,7 +73,7 @@
                     "title": "Gestão de Redes com SNMP",
                     "author": "Eduardo Silveira",
                     "file": "tchelinux/2019/bento/eduardo-snmp.pdf"
-                },
+                }
             ]
         },
         {

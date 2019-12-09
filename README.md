@@ -42,4 +42,5 @@ Um péssimo exemplo, mas válido: **c097177fbe25c1894d2115272454742e.pdf** (sim,
 
 O arquivo `slides.schema` contém o JSON schema do arquivo `slides.json.`
 
-A validação foi verificada com o `jsonschema` disponível no PyPi.
+A validação foi verificada com o `jsonschema` disponível no PyPi, para
+executar a validação, utilize o script `validate_data.sh`.
