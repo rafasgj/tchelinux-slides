@@ -8,6 +8,7 @@
             "cname": "poa",
             "city": "Porto Alegre",
             "content": [
+
                 {
                     "title": "Desmistificando o compilador Go",
                     "subtitle": "a jornada do func main() até o go run",
@@ -18,6 +19,11 @@
                     "title": "Introdução a agilidade e Scrum",
                     "author": "Marcus Vinicius Brum da Costa",
                     "file": "tchelinux/2019/poa/marcus-costa-scrum.pdf"
+                },
+                {
+                    "title": "Flutter e Hasura",
+                    "author": "Vilson Dauinheimer",
+                    "file": "tchelinux/2019/poa/vilson-dauinheimer-flutter-hasura.pdf"
                 },
                 {
                     "title": "...porque no MEU TEMPO",
