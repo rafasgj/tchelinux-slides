@@ -8,7 +8,6 @@
             "cname": "poa",
             "city": "Porto Alegre",
             "content": [
-
                 {
                     "title": "Desmistificando o compilador Go",
                     "subtitle": "a jornada do func main() até o go run",
@@ -30,6 +29,11 @@
                     "subtitle": "um comparativo dos dias atuais com 10+ anos atrás",
                     "author": "Fábio Beneditto",
                     "file": "tchelinux/2019/poa/fabio-beneditto-no-meu-tempo.pdf"
+                },
+                {
+                    "title": "Detectando e Respondendo Incidentes de Segurança em Frontends Nginx Utilizando ELK",
+                    "author": "Jerônimo Zucco",
+                    "url": "https://www.slideshare.net/jczucco/detectando-e-respondendo-incidentes-de-segurana-em-frontends-nginx-utilizando-elk"
                 }
             ]
         },
