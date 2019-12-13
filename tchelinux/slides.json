@@ -9,6 +9,64 @@
             "city": "Porto Alegre",
             "content": [
                 {
+                    "title": "Introdução a linha de comando e automação em Shell Script",
+                    "author": "Mateus Müller",
+                    "file": "tchelinux/2019/poa/mateus-shell-automacao.pdf"
+                },
+                {
+                    "title": "Riscos e Falhas",
+                    "author": "Marco Antonio Martins Junior",
+                    "file": "tchelinux/2019/poa/marco-antonio-riscos-falhas.pdf"
+                },
+                {
+                    "title": "Testes unitários e de integração com React",
+                    "author": "Dennis Kaffer",
+                    "file": "tchelinux/2019/poa/dennis-testes-react.pdf"
+                },
+                {
+                    "title": "Bash do Dia a Dia",
+                    "author": "Wanderson Henrique Camargo Rosa",
+                    "file": "tchelinux/2019/poa/wanderson-bash.pdf"
+                },
+                {
+                    "title": "Container Broker",
+                    "subtitle": "Orquestrador de containers Docker",
+                    "author": "João Vieira",
+                    "url": "http://slides.com/joaocv3/container-broker"
+                },
+                {
+                    "title": "Como Estruturar sua Carreira e Mostrar suas Habilidades desde o 1º Semestre da Graduação",
+                    "subtitle": "",
+                    "author": "Rodrigo Rosa da Silva",
+                    "url": "https://prezi.com/view/pN75nkg3lFYbhAbxXyh1/"
+                },
+                {
+                    "title": "Intodução à Vue.js",
+                    "author": "João Pedro Sabbado Pereira",
+                    "file": "tchelinux/2019/poa/sabbado-vue.pdf"
+                },
+                {
+                    "title": "Utilizando o Rocket.Chat em container",
+                    "author": "Fabrício Machado",
+                    "file": "tchelinux/2019/poa/fabricio-rocketchat-container.pdf"
+                },
+                {
+                    "title": "Shell Script",
+                    "subtitle": "Seu Aliado no Pentest!",
+                    "author": "Mateus Buogo",
+                    "file": "tchelinux/2019/poa/mateus-shell-pentest.pdf"
+                },
+                {
+                    "title": "Programação Solidity para Ethereum",
+                    "author": "Rodrigo Rosa da Silva",
+                    "url": "https://prezi.com/view/Smr5XMf5FvEoeAjsYZ0N/"
+                },
+                {
+                    "title": "Uma API Responsa",
+                    "author": "Rafael Jeffman",
+                    "file": "tchelinux/2019/poa/jeffman-api-tchelinux.pdf"
+                },
+                {
                     "title": "Desmistificando o compilador Go",
                     "subtitle": "a jornada do func main() até o go run",
                     "author": "Alex Garzão",
