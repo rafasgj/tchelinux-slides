@@ -9,6 +9,83 @@
             "city": "Porto Alegre",
             "content": [
                 {
+                    "title": "Desenvolvendo Jogos com PyGame",
+                    "author": "Jerônimo Medina Madruga",
+                    "file": "tchelinux/2019/poa/jeronimo-madruga-pygame-over.pdf"
+                },
+                {
+                    "title": "Rust para Linux Embarcados",
+                    "author": "Jonathas Conceição",
+                    "file": "tchelinux/2019/poa/jonathas-rust-embarcados.pdf"
+                },
+                {
+                    "title": "Flutter Live Code",
+                    "subtitle":"Criando um app lindo em 45 minutos ",
+                    "author": "João Rutkoski",
+                    "file": "tchelinux/2019/poa/joaortk-flutter-live-code.pdf"
+                },
+                {
+                    "title": "Python para Análise de Dados",
+                    "author": "Andrius Jaques",
+                    "file": "tchelinux/2019/poa/andrius-jaques-python-analise-dados.pdf"
+                },
+                {
+                    "title": "O que é essencial na atualização de firmware OTA e por que UpdateHub?",
+                    "author": "Diandra Martini",
+                    "file": "tchelinux/2019/poa/diandra-atualizacao-updatehub.pdf"
+                },
+                {
+                    "title": "ShellHub: Acessando seu dispositivo Linux de qualquer lugar do mundo",
+                    "author": "Otávio Salvador",
+                    "file": "tchelinux/2019/poa/otavio-salvador-shellhub.pdf"
+                },
+                {
+                    "title": "O que fazer (e o que não fazer) em desenvolvimento de sistemas embarcados",
+                    "author": "Otávio Salvador",
+                    "file": "tchelinux/2019/poa/otavio-salvador-sistemas-embarcados.pdf"
+                },
+                {
+                    "title": "TI Verde para nós nerds!",
+                    "author": "Luiz Henrique Rauber Rodrigues",
+                    "file": "tchelinux/2019/poa/rauber-tiverde.pdf"
+                },
+                {
+                    "title": "Flask and You",
+                    "author": "Luciano Camargo Cruz",
+                    "file": "tchelinux/2019/poa/luciano-flask-you.pdf"
+                },
+                {
+                    "title": "Unix, o brotinho cinquentão",
+                    "author": "Carlos Santos",
+                    "file": "tchelinux/2019/poa/casantos-unix-2019.pdf"
+                },
+                {
+                    "title": "Coroutines vs. RX",
+                    "author": "Filipe Nunes",
+                    "file": "tchelinux/2019/poa/filipe-coroutines-rx.pdf"
+                },
+                {
+                    "title": "Migrando do complexo Java para o simplificado Kotlin",
+                    "author": "Filipe Nunes",
+                    "file": "tchelinux/2019/poa/filipe-java-kotlin.pdf"
+                },
+                {
+                    "title": "Banco de Dados no Mobile",
+                    "subtitle": "Do JavaME ao Flutter",
+                    "author": "Ricardo da Silva Oligari",
+                    "file": "tchelinux/2019/poa/ricardo-bd-mobile.pdf"
+                },
+                {
+                    "title": "Er Galvão Abbot",
+                    "author": "Qualidade Essencial para Projetos PHP",
+                    "file": "tchelinux/2019/poa/er-qualidade-php.pdf"
+                },
+                {
+                    "title": "Conhecendo seus usuários com Matomo",
+                    "author": "Sidney Souza",
+                    "file": "tchelinux/2019/poa/sidney-matomo.pdf"
+                },
+                {
                     "title": "Introdução a linha de comando e automação em Shell Script",
                     "author": "Mateus Müller",
                     "file": "tchelinux/2019/poa/mateus-shell-automacao.pdf"
