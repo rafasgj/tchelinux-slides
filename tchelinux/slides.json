@@ -9,6 +9,11 @@
             "city": "Porto Alegre",
             "content": [
                 {
+                    "title": "Tudo o que você queria saber sobre a LGPD e não sabia a quem perguntar!",
+                    "author": "Marcos A. Lucas",
+                    "file": "tchelinux/2019/poa/marcos-lucas-lgpd.pdf"
+                },
+                {
                     "title": "Desenvolvendo Jogos com PyGame",
                     "author": "Jerônimo Medina Madruga",
                     "file": "tchelinux/2019/poa/jeronimo-madruga-pygame-over.pdf"
