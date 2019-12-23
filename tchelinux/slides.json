@@ -4,10 +4,27 @@
     },
     "data": [
         {
+          "date": "2019-12-22",
+          "cname": "tchelinux",
+          "city": "Tchelinux",
+          "content": [
+              {
+                 "title": "Resultados Tchelinux 2019",
+                 "author": "Tchelinux",
+                 "file": "tchelinux/institucional/resultados_2019.pdf"
+              }
+          ]
+        },
+        {
             "date": "2019-12-14",
             "cname": "poa",
             "city": "Porto Alegre",
             "content": [
+                {
+                    "title": "Dicas e Ferramentas para Montar seu Primeiro Modelo de Negócios",
+                    "author": "Cláudia Sungalia",
+                    "file": "tchelinux/2019/poa/claudia-ferramentas-negocios.pdf"
+                },
                 {
                     "title": "Desenvolvendo Jogos com PyGame",
                     "author": "Jerônimo Medina Madruga",
