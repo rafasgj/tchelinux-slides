@@ -21,6 +21,70 @@
             "city": "Porto Alegre",
             "content": [
                 {
+                    "title": "Por que a galinha atravessou a rua?",
+                    "author": "Alan Mussoi",
+                    "file": "tchelinux/2019/poa/alan-galinha.pdf"
+                },
+                {
+                    "title": "Tudo que você queria saber sobre a LGPD e não sabia pra quem perguntar!",
+                    "author": "Marcos André Lucas",
+                    "file": "tchelinux/2019/poa/marcos-lucas-lgpd.pdf"
+                },
+                {
+                    "title": "Configure seu primeiro servidor VPS na nuvem",
+                    "author": "William Brendaw",
+                    "file": "tchelinux/2019/poa/william-vps-cloud.pdf"
+                },
+                {
+                    "title": "Jornada para o DevOps em Âmbito Milita",
+                    "subtitle": "Lições aprendidas para uma automação bem sucedida",
+                    "author": "Thiago Alvez Finardi",
+                    "file": "tchelinux/2019/poa/thiago-devops-militar.pdf"
+                },
+                {
+                    "title": "Golang",
+                    "subtitle": "a sua próxima linguagem de programação favorita",
+                    "author": "Ricardo Robaina",
+                    "file": "tchelinux/2019/poa/robaina-golang.pdf"
+                },
+                {
+                    "title": "Enferrujando a Web",
+                    "author": "Michel da Silva Martinez",
+                    "file": "tchelinux/2019/poa/michel-enferrujando-web.pdf"
+                },
+                {
+                    "title": "Uma introdução ao OpenALPR",
+                    "author": "Marco Mangan",
+                    "file": "tchelinux/2019/poa/mangan-openalpr.pdf"
+                },
+                {
+                    "title": "Phishing",
+                    "subtitle": "Por que ainda caímos nesse golpe?",
+                    "author": "Élvis Steinbach",
+                    "file": "tchelinux/2019/poa/elvis-phising.pdf"
+                },
+                {
+                    "title": "Don't Repeat Yourself",
+                    "author": "Robson Bittencourt",
+                    "file": "tchelinux/2019/poa/robson-dry-jenkins.pdf"
+                },
+                {
+                    "title": "Automação Ansible",
+                    "subtitle": "Do CLI para uma solução mais Enterprise",
+                    "author": "Deivid Pilla",
+                    "file": "tchelinux/2019/poa/deivid-ansible.pdf"
+                },
+                {
+                    "title": "Mecanismos anti-exploit em sistemas Linux",
+                    "author": "Roner Rodriguez",
+                    "file": "tchelinux/2019/poa/roner-anti-exploit.pdf"
+                },
+                {
+                    "title": "Escrita acadêmica com o LaTeX",
+                    "author": "Patrícia Kayser Vargas Mangan",
+                    "file": "tchelinux/2019/poa/patricia-latex.pdf"
+                },
+                {
                     "title": "Dicas e Ferramentas para Montar seu Primeiro Modelo de Negócios",
                     "author": "Cláudia Sungalia",
                     "file": "tchelinux/2019/poa/claudia-ferramentas-negocios.pdf"
