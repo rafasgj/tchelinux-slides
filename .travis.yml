@@ -1,0 +1,28 @@
+language: python
+
+jobs:
+  include:
+    - name: "Python Linux"
+      python:
+      - 3.8
+      - 3.7
+    - name: "Python on macOS"
+      os: osx
+      language: generic
+      env:
+        - OS_X_PYTHON_VERSION=python3.7
+        - HOMEBREW_NO_INSTALL_CLEANUP=1
+        - HOMEBREW_NO_ANALYTICS=1
+      addons:
+        homebrew:
+          packages: python3
+
+install:
+  - PYTHON="python"
+  - if [ "$TRAVIS_OS_NAME" = "osx" ]; then PYTHON="python3" ; fi
+  - echo "Using `$PYTHON --version`"
+  - $PYTHON -m pip install --upgrade pip
+  - $PYTHON -m pip install -r requirements.txt
+
+script:
+  - ./validate_data.sh
